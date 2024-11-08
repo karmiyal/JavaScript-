@@ -44,3 +44,22 @@ let f=function(){
 console.log("Hello");
 }
 console.log(typeof f); //function
+
+/*********************************************************************/
+//stack memory(primitive type) it 
+let myWhatsappname="FurryBoy";
+let anothername=myWhatsappname
+console.log(anothername);//FurryBoy
+anothername="Coco";
+console.log(anothername);//Coco
+//heap memory(non-primitive type)
+
+let userone={
+    username:"Babita",
+    useremail:"userone2gamil.com",
+}
+
+let usertwo=userone;
+usertwo.useremail="usertwo@gmail.com";
+console.log(userone);
+console.log(usertwo);
