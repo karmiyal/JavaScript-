@@ -8,6 +8,7 @@ accountEmail="Karmiyalbabita@gmail.com"
 accountPassword="Karmiyal"
 accountCity="Rudrapur"
 console.log(accountId);
+let username="babita";
 /*
 prefer not to use var
 because of issue in block scope and function scopw
